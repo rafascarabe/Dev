@@ -1,4 +1,4 @@
-# Meus-projetos
+# Meus Projetos
 &#128526;<i>Projetos pessoais desenvolvidos para testar meus conhecimentos</i>
 
 <li>Desafio <b>'One Bit Code'</b> &#129311;</li>
