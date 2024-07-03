@@ -13,6 +13,7 @@
   ## Meus estudos
   <div style="width:48%; align-self:left">
       &rarr; Exercícios Beecrowd &#128029;
+    <span>Consiste em exercicios de Java Script extraidos do site beecrowd, que resolvi ao longo dos meus estudos</span>
   </div>
 </div>
 
