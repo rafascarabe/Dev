@@ -3,7 +3,7 @@
 
 <div style="display:flex; flex-direction:row">
   <div style="width:48%; align-self:left">
-      &rarr; Desafio <b>'One Bit Code &#129311;'</b>
+      &rarr; Desafio <b>'One Bit Code &#129311;'</b> <br>
       <span>A " Tom's Jazz School " é um site estático no formato Lading Page feito usando apenas HTML e CSS. Ele foi feito para o formato mobile e também é adaptado para desktop (responsividade).</span>
   </div>
   <div style="width:48%; align-self:right">
@@ -12,7 +12,7 @@
   
   ## Meus estudos
   <div style="width:48%; align-self:left">
-      &rarr; Exercícios Beecrowd &#128029;
+      &rarr; Exercícios Beecrowd &#128029; <br>
     <span>Consiste em exercicios de Java Script extraidos do site beecrowd, que resolvi ao longo dos meus estudos</span>
   </div>
 </div>
