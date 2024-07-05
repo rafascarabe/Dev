@@ -51,7 +51,7 @@ body{
 */
 
 header, 
-.hero_section, .courses_section,
+.hero_section, .courses_section, .feedbacks_section,
 footer { 
     border: solid var(--color-black);
     border-width:  0 1px 1px 1px;
