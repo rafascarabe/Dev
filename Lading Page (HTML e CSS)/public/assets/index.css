@@ -17,7 +17,7 @@ body{
     padding: 0 1rem; /* 1rem = 16px*/
 }
 
-/* --------- margens estruturais pros elementos --------- */
+/* --------- MARK: margens estruturais pros elementos --------- */
 .mt-1{
     margin-top: 1rem;
 } 
@@ -43,7 +43,7 @@ body{
     text-align: center;
 }
 
-/*--------------------------------------------- HEADER & FOOTER --------------------------------------------
+/*--------------------------------------------- MARK: HEADER & FOOTER --------------------------------------------
  display: flex;
     justify-content: space-around;
     font-weight: bold;
@@ -87,7 +87,7 @@ header nav a:nth-child(2n-1){ /*2n = todos os elementos na posição par | 2n-1 
     box-shadow: 4px 4px 0 var(--color-black); /*sombra*/
     color: var(--color-black);
     display: block;
-    font-size: 1.25rem;
+    font-size: 15px;
     padding: .75rem 1rem;
     max-width: 14rem;
     text-align: center;
@@ -103,22 +103,22 @@ section{
     align-items: center; 
 }
 
-/*      HERO_SECTION      */
+/* MARK: HERO_SECTION      */
 
 .hero_section{
     padding-right: 0;
-    padding-bottom: 16rem; /*fundo*/
+    padding-bottom: 13.5rem; /*fundo*/
 }
 
 .hero_section img{
     display: block;
     margin: 1.25rem 0 0 auto; /*em cima - direita - embaixo - esquerda*/
-    max-width: 100%;
+    max-width: 90%;
 }
 
 h1{
     font-size: 3rem;
-    line-height: 105%;
+    line-height: 90%;
 }
 h2{
     font-size: 2.5rem;
@@ -159,12 +159,12 @@ h2{
     width: 40px;
 }
 
-/*      COURSES_SECTION     */
+/*      MARK: COURSES_SECTION     */
 
 .courses_section{
     display: flex;
     flex-direction: column;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
 
 .cards{
@@ -172,8 +172,8 @@ h2{
     flex-direction: column;
     align-items: start;
     gap: 1.25rem;
-    margin-top: -8rem; /*pro conteúdo ficar com aquela estilização de invadir a section anterior*/
-    margin-bottom: 4rem;
+    margin-top: -5rem; /*pro conteúdo ficar com aquela estilização de invadir a section anterior*/
+    margin-bottom: 3rem;
 }
 
 .card{
@@ -181,12 +181,13 @@ h2{
     border: 2px solid var(--color-black);
     box-shadow: 4px 4px 0 var(--color-black);
     max-width: 17rem;
-    padding: 2rem 0 0 2rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .card:nth-child(2n){
     align-self: end;
     background-color: var(--color-secondary);
+    margin-top: 40px;
 }
 
 .card strong{
@@ -197,7 +198,7 @@ h2{
 }
 .card a{
     display: block;
-    margin: 3rem 0 0 auto;
+    margin: 1rem 0 0 auto;
     width: fit-content;
 }
 /*article{
@@ -205,13 +206,65 @@ h2{
     justify-content: center; align-items: center; flex-direction: column;
     border: solid 2px var(--color-black);
 }
+*/
 
+/*      MARK: FEEDBACKS_SECTION     */
 
-/*-------------------------------------------------- FOOTER ------------------------------------------------ */
+.feedbacks_section{
+    padding: 2rem;
+}
+
+.feedbacks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border: solid var(--color-black);
+    border-width:  1px 1px 1px 1px;
+
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.paginacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.mini2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    padding: 10px 20px;
+    background-color: #FFE7D1;
+    margin: 5px 5px -6px 5px;
+}
+
+/*-------------------------------------------------- MARK: FOOTER ------------------------------------------------ */
 
 footer{
     border-bottom: 0;
-    padding: 1rem 1.25rem 4rem;
+    padding: 2rem 1.25rem .5rem;
 }
 
 footer nav a{
@@ -221,18 +274,18 @@ footer nav a{
 
 .newsletter_form label{
     display: block;
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 .newsletter_form input{
     border: 2px solid var(--color-black);
     box-shadow: 4px 4px 0 var(--color-black);
-    font-size: 1.5rem;
+    font-size: 20px;
     padding: .5rem;
     width: 100%;
 }
 
-/* ------------------------- RESPONSIVIDADE --------------------------*/
+/* ------------------------- MARK: RESPONSIVIDADE --------------------------*/
 /*(adapta o mobile para o formato desktop)*/
 
 @media screen and (min-width: 40rem) { /* > section*/

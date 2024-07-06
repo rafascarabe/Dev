@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
+
+    <!-- MARK: HEADER -->
     <header class="header">
         <div  class="container">
             <img src="img/logo.svg" id="logo" alt="Tom's Jazz School">
@@ -27,6 +29,7 @@
         </div>
     </header>
 
+    <!-- MARK: HERO SECTION-->
     <main>
         <section class="hero_section">
             <div class="container row_reverse">
@@ -39,7 +42,9 @@
                 </div>
             </div>
         </section>
-        
+
+    <!-- MARK: COURSES SECTION -->  
+
         <section class="courses_section">
             <div class="cards">
                 
@@ -77,25 +82,54 @@
             </article>
         </div>
         
-        <h2 class="text_center">E <span class="text_primary">varios</span> outros!</h2>
+        <h2 class="text_center">E <span class="text_primary">vários</span> outros!</h2>
         <a href="#" class="button mt-2 mx-auto">Conhecer cursos</a>
     </section>
-    
+
+    <!-- MARK: FEEDBACK SECTION -->
+
     <section class="feedbacks_section">
         <div>
             <h2 class="text_center"><span class="text_primary">Students</span> are saying</h2>
-            
-            <!-- cria um loop em js que percorre um array com os textos dos feedbacks e exibe os 3 primeiros. 
-                    ao clicar na seta, apaga td e exibe novamente, mas dessa vez o index+1 do array
-
-                    algo do tipo, mas a lógica ta errada kkkkk
-                     -->
+            <div class="feedbacks" id="feedbacks">
+                
+                <div class="feedback">
+                    <span class="star">⭐⭐⭐⭐⭐</span>
+                    <strong class="title">O melhor curso que já fiz...</strong>
+                    <span class="description">Não tá escrito o tanto que recomendo esses cursos. São os melhores e a assistência dos professores é impecável.</span>
+                    <span class="user">_maria</span>
+                </div>
+                <div class="feedback">
+                    <span class="star">⭐⭐⭐⭐⭐</span>
+                    <strong class="title">Super recomendo esse curso para todos que querem aprender a tocar algum instrumento</strong>
+                    <span class="description">Se hoje toco em uma banda é graças as aulas da Tom Jazz School.</span>
+                    <span class="user">_ViniciusMaia</span>
+                </div>
+                <div class="feedback">
+                    <span class="star">⭐⭐⭐⭐</span>
+                    <strong class="title">Aprendi muito com esse curso. Ótima qualidade!</strong>
+                    <span class="description">Meu sonho é tocar Jazz e desde de que comecei as aulas tenho evoluido muito rápido. Vale muito a pena.</span>
+                    <span class="user">_Andrade</span>
+                </div>
+                   
+            </div>
+            <div class="paginacao">
+                <div class="mini2 card" onclick="FeedbacksEsquerda()">
+                    &larr;
+                </div>
+                
+                <div class="mini card" onclick="FeedbacksDireita()">
+                    &rarr;
+                </div>
             </div>
 
+        </div>
 
     </section>
         
     </main>
+
+    <!-- MARK: FOOTER -->
 
     <footer>
         <div class="container">
@@ -120,3 +154,32 @@
     </footer>
 </body>
 </html>
+
+<!-- MARK: JS -->
+<script>
+    var starList = ['⭐⭐⭐⭐⭐', '⭐⭐⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐⭐⭐⭐', '⭐⭐⭐⭐'];
+    var titleList = ['O melhor curso que já fiz...', 
+        'Super recomendo esse curso para todos que querem aprender a tocar algum instrumento.',
+        'Aprendi muito com esse curso. Ótima qualidade!',
+        'O curso de Piano é o melhor de todos.',
+        'Bons cursos e bons professores.'
+    ];
+    var descriptionList = ['Não tá escrito o tanto que recomendo esses cursos. São os melhores e a assistência dos professores é impecável.',
+            'Se hoje toco numa banda é graças as aulas da Tom Jazz School',
+            'Meu sonho é tocar Jazz e desde de que comecei as aulas tenho evoluido muito rápido.',
+            'Aprendi muito com esse curso e adorei a experiência, valeu a pena o investimento.',
+            'Adorei a experiência, foi um dos melhores cursos que já fiz.'
+    ];
+    var userList = ['_maria', '_ViniciusMaia', '_Andrade', '_larissa', '_lucasSouza'];
+
+    function FeedbacksDireita() {
+
+
+        //  cria um loop em js que percorre um array com os textos dos feedbacks e exibe os 3 primeiros. 
+        //             ao clicar na seta, apaga td e exibe novamente, mas dessa vez o index+1 do array
+                    
+        //             algo do tipo, mas a lógica ta errada kkkkk
+                    
+    }
+
+</script>
