@@ -9,13 +9,19 @@
     font-weight: bold;
 }
 
-.cadastro{
+.linkCadastro, .linkLogin{
     color: orange;
     font-weight: bold;
 }
 
-section{
+.cadastro{
     display: flex;
+    flex-direction: row-reverse;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
 }
 
 img{
@@ -58,7 +64,7 @@ button:hover {
 
 input{
     text-align: center;
-    padding: 10px 80px;
+    padding: 10px 100px;
     border: 0;
     border-bottom: 2px solid;
     margin-bottom: 10px;
@@ -78,7 +84,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 5px;
+    margin: 20px 5px 0 5px;
     font-size: 35px;
 }
 
