@@ -6,15 +6,16 @@
 .forgetPass{
     text-decoration: none;
     color: #000;
+    font-weight: bold;
 }
 
 .cadastro{
     color: orange;
+    font-weight: bold;
 }
 
 section{
     display: flex;
-
 }
 
 img{
@@ -85,6 +86,7 @@ h1{
     color: #2D1F28;
     text-decoration: none;
     margin: 10px;
+    transition: 0.5s;
 }
 
 .social:hover a {
