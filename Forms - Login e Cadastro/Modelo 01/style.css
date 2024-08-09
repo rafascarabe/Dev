@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: Georgia, Times, serif;
+}
+
+.forgetPass{
+    text-decoration: none;
+    color: #000;
+}
+
+.cadastro{
+    color: orange;
+}
+
+section{
+    display: flex;
+
+}
+
+img{
+    width: 35%;
+    height: 740px;
+}
+
+.forms{
+    width: 65%;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
+    padding: 12px 150px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(248, 168, 20);
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #000;
+    color: #fff;
+}
+
+input{
+    text-align: center;
+    padding: 10px 80px;
+    border: 0;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+label{
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px;
+    font-size: 35px;
+}
+
+.social a {
+    color: #2D1F28;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.social:hover a {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.social:hover a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
