@@ -28,7 +28,7 @@ input{
 
     width: 350px;
     height: 40px;
-    padding: 2px;
+    padding-left: 10px;
 
     outline: none;
 }
@@ -42,10 +42,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-
-
-    
+    flex-direction: column;    
 }
 
 .gradiente{
@@ -76,8 +73,17 @@ section{
     width: 55px;
 }
 
-.inputs .password{
+.inputs .pass, .inputs .name, .inputs .phone{
     width: 75px;
+}
+
+.inputs .name, .inputs .phone{
+    width: 75px;
+}
+
+.inputs .birth{
+    width: 95px;
+
 }
 
 button{
@@ -116,3 +122,9 @@ p{
     background-size: 10px 100%; /* Largura da borda gradiente */
     background-repeat: no-repeat;
 }
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
