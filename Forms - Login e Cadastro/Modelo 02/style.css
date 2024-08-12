@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    color: #fffaeb;
+}
+
+body{
+    background-image: url(assets/green.png);
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+input{
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    background-color: #80808000;
+
+    width: 350px;
+    height: 40px;
+    padding: 2px;
+
+    outline: none;
+}
+
+section{
+    height: 740px;
+    width: 45%;
+    background-color: #000;
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    
+}
+
+.gradiente{
+    background: linear-gradient(to right, transparent, black);
+    height: 740px;
+    width: 5%;
+    margin-left: 50%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.inputs span{
+    position: relative;
+
+    margin-left: 25px;
+    margin-bottom: -10px;
+    padding-left: 5px;
+
+    background-color: #000;
+    
+}
+.inputs .email{
+    width: 55px;
+}
+
+.inputs .password{
+    width: 75px;
+}
+
+button{
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+
+    width: 350px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    cursor: pointer;
+    transition: 0.5s;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover {
+    transition: 0.5s;
+
+    background-color: #fffaeb;
+    color: green;
+}
+
+p{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.div-com-borda {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to right, transparent, black);
+    background-size: 10px 100%; /* Largura da borda gradiente */
+    background-repeat: no-repeat;
+}
