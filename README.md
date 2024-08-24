@@ -5,6 +5,8 @@
   <div style="width:48%; align-self:left">
       &rarr; Desafio <b>'One Bit Code &#129311;'</b> <br>
       <span>A " Tom's Jazz School " é um site estático no formato Lading Page, que foi feito para o formato mobile e também é adaptado para desktop (responsivo).</span><br>
+       &rarr; Formulários de Cadastro e Login <br>
+      <span>Alguns formulários simples de cadastro e login com diferentes designes.</span><br>
   </div>
   <div style="width:48%; align-self:right">
       <!--<img src="Lading Page (HTML e CSS)/public/assets/img/home_previw.png" width="45%">-->
