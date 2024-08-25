@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
+    <script src="funcionalidades.js" defer></script>
+
     <title>BR Travel</title>
 </head>
 <body>
@@ -21,8 +23,8 @@
 
             <div class="sessoes">
                 <a href="">Sobre</a>
+                <a href="#turismo" onclick="scrollToSection(event, '#turismo')">Tour</a>
                 <a href="">Serviços</a>
-                <a href="">Tour</a>
                 <a href="">Blog</a>
                 <a href="">Contato</a>
             </div>
@@ -81,6 +83,60 @@
             </div>
         </div>
 
+        <div class="frase" id="turismo">
+            <span class="p1">
+                <p>Melhor local</p>
+                <h1>Brasil Turismo</h1>
+            </span>
+
+            <span class="p2">
+                <p>Conheça a beleza natural extraordinária, desfrute da rica cultura e experimente a simpatia das pessoas locais.</p>
+            </span>
+        </div>
+
+        <div class="imagens-turismo">
+
+            <div class="opcoes-turismo">
+                <span class="location position1">
+                <a href="">
+                    <img src="assets/rioDeJaneiro.jpg" alt="rioDeJaneiro">
+
+                    <p>Rio de Janeiro, Rio de Janeiro</p>
+                    <h1>Tour pelo Rio de Janeiro</h1>
+                </a>
+                </span>
+
+                <span class="location position2">
+                <a href="">
+                    <img src="assets/avenidaPaulista.jpg" alt="paulista">
+
+                    <p>Avenida Paulista, São Paulo</p>
+                    <h1>Tour por São Paulo</h1>
+                </a>
+                </span>
+            </div>
+
+            <div class="opcoes-turismo">
+                <span class="location position3">
+                <a href="">
+                    <img src="assets/lencoisMaranhenses.jpeg" alt="lencoisMaranhenses">
+
+                    <p>Lençóis Maranhenses, Maranhão</p>
+                    <h1>Tour pelo Nordeste</h1>
+                </a>
+                </span>
+
+                <span class="location position4">
+                <a href="">
+                    <img src="assets/camposDoJordao.jpg" alt="camposDoJordao">
+                    
+                    <p>Campos do Jordão, Rio Grande do Sul</p>
+                    <h1>Tour por Campos do Jordão</h1>
+                </a>
+                </span>
+            </div>
+
+        </div>
 
     </section>
 
