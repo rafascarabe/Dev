@@ -147,6 +147,7 @@ section{
 .frase h1{ font-size: 35px; }
 .frase span p{ font-size: 20px; }
 
+
 .imagens-turismo{
     display: flex;
     align-items: center;
@@ -193,6 +194,16 @@ section{
 .opcoes-turismo .position2 { width: 40%;height: 100%;}
 .opcoes-turismo .position3 { width: 40%;height: 100%;}
 .opcoes-turismo .position4 { width: 58%;height: 100%;}
+
+
+/*MARK: Section 03
+*/
+
+.comoFunciona h1{ font-size: 35px; }
+.comoFunciona p{ font-size: 20px; }
+
+
+
 
 /*MARK: Footer
 */
