@@ -199,11 +199,61 @@ section{
 /*MARK: Section 03
 */
 
+.howWorks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: cadetblue; */
+    margin-top: 50px;
+    width: 80%;
+}
+
+video{ border-radius: 20px; margin-right: 100px; margin-left: 90px;}
+
 .comoFunciona h1{ font-size: 35px; }
 .comoFunciona p{ font-size: 20px; }
 
+.cardHowWorks p, .cardHowWorksP1 p{ font-size: 13px; text-align: start;}
+.cardHowWorks h3, .cardHowWorksP1 h1{ font-size: 18px; text-align: start; }
+
+.cardHowWorks {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    width: 75%;
+    height: 80px;
+
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 15px;
+}
+.cardHowWorksP1{ 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    width: 75%;
+    height: 80px;
+
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 15px;
+    box-shadow: #cbcbcb 4px 16px 16px 16px;
+}
+
+.cardHowWorksP1 span, .cardHowWorks span{ 
+    display: flex; 
+    flex-direction: column;
+}
 
 
+.cardHowWorksP1 img, .cardHowWorks img{ height: 50px; margin-right: 20px;}
 
 /*MARK: Footer
 */
